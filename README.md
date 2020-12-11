@@ -1,16 +1,19 @@
-### Hi there 👋
+### $whoami
 
 <!--
 **jozsefDevs/jozsefDevs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
+
+📚 Life-long learner
+
+🧠 I favor proactive behaviour over reactive
+
+🔊 I like company cultures with "Speak up!" mentality. Feedback is important.
+
+🔭 Working with React + TypeScript most of the time
+
+👮 {Es,Style,Commit}lint + Prettier fan.
+
+🌱 I’m currently learning DevOps things, Docker + K8s, setting up CI/CD...
+
+💻 Mac user 
