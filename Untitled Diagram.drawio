@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T12:52:46.673Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="-K0nAOwY37Cx0pwEYV8F" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T13:05:21.596Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="JgYNTzdiblAh_tQ1-Ii2" version="14.5.1" type="github">
   <diagram id="_J9LoODiADFo5gMvbO7-" name="Page-1">
     <mxGraphModel dx="1678" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="ueBFUlql__zcKDbDiL_w-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ueBFUlql__zcKDbDiL_w-1" target="ueBFUlql__zcKDbDiL_w-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ueBFUlql__zcKDbDiL_w-25" value="&lt;br&gt;spec.volumes[0]" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" vertex="1" connectable="0" parent="ueBFUlql__zcKDbDiL_w-8">
+        <mxCell id="ueBFUlql__zcKDbDiL_w-25" value="pod.spec.volumes[0]" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" vertex="1" connectable="0" parent="ueBFUlql__zcKDbDiL_w-8">
           <mxGeometry x="-0.0769" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
@@ -148,6 +148,10 @@
         <mxCell id="ueBFUlql__zcKDbDiL_w-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="ueBFUlql__zcKDbDiL_w-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="250" />
+              <mxPoint x="400" y="250" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ueBFUlql__zcKDbDiL_w-52" value="name: &lt;font color=&quot;#66cc00&quot;&gt;vol1&lt;/font&gt;&lt;br&gt;persistentVolumeClaim:&lt;br&gt;&amp;nbsp; &amp;nbsp; claimName: &lt;font color=&quot;#ff0000&quot;&gt;claim1&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
