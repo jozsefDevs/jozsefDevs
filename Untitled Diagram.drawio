@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T12:33:58.115Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="R2U_oCg3lEVMSjxltV03" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T12:52:46.673Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="-K0nAOwY37Cx0pwEYV8F" version="14.5.1" type="github">
   <diagram id="_J9LoODiADFo5gMvbO7-" name="Page-1">
-    <mxGraphModel dx="1188" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="ueBFUlql__zcKDbDiL_w-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ueBFUlql__zcKDbDiL_w-1" target="ueBFUlql__zcKDbDiL_w-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ueBFUlql__zcKDbDiL_w-25" value="&lt;br&gt;spec.volumes[0].name = vol1&lt;br&gt;spec.volumes[0].persistentVolumeClaim" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" vertex="1" connectable="0" parent="ueBFUlql__zcKDbDiL_w-8">
+        <mxCell id="ueBFUlql__zcKDbDiL_w-25" value="&lt;br&gt;spec.volumes[0]" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" vertex="1" connectable="0" parent="ueBFUlql__zcKDbDiL_w-8">
           <mxGeometry x="-0.0769" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
@@ -18,8 +18,16 @@
         <mxCell id="ueBFUlql__zcKDbDiL_w-1" value="pod" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="30" y="70" width="260" height="260" as="geometry" />
         </mxCell>
+        <mxCell id="ueBFUlql__zcKDbDiL_w-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=10;fontColor=#FF5005;" edge="1" parent="1" source="ueBFUlql__zcKDbDiL_w-2" target="ueBFUlql__zcKDbDiL_w-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ueBFUlql__zcKDbDiL_w-61" value="&lt;font color=&quot;#000000&quot;&gt;spec.volumeMounts[0]&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FF5005;" vertex="1" connectable="0" parent="ueBFUlql__zcKDbDiL_w-60">
+          <mxGeometry x="0.0182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ueBFUlql__zcKDbDiL_w-2" value="containers" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.isocube;isoAngle=15;verticalAlign=top;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="117" width="120" height="120" as="geometry" />
+          <mxGeometry x="50" y="117" width="120" height="123" as="geometry" />
         </mxCell>
         <mxCell id="ueBFUlql__zcKDbDiL_w-3" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.isocube;isoAngle=15;" vertex="1" parent="1">
           <mxGeometry x="150" y="120" width="120" height="120" as="geometry" />
@@ -123,15 +131,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ueBFUlql__zcKDbDiL_w-42" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ueBFUlql__zcKDbDiL_w-2" target="ueBFUlql__zcKDbDiL_w-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="290" as="sourcePoint" />
-            <mxPoint x="460" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ueBFUlql__zcKDbDiL_w-43" value="volumeMounts.name = vol1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ueBFUlql__zcKDbDiL_w-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ueBFUlql__zcKDbDiL_w-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ueBFUlql__zcKDbDiL_w-44" target="ueBFUlql__zcKDbDiL_w-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -144,7 +143,21 @@
           <mxGeometry x="374" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ueBFUlql__zcKDbDiL_w-51" value="hides actual volume implementation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="535" y="90" width="170" height="20" as="geometry" />
+          <mxGeometry x="535" y="80" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ueBFUlql__zcKDbDiL_w-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="ueBFUlql__zcKDbDiL_w-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ueBFUlql__zcKDbDiL_w-52" value="name: &lt;font color=&quot;#66cc00&quot;&gt;vol1&lt;/font&gt;&lt;br&gt;persistentVolumeClaim:&lt;br&gt;&amp;nbsp; &amp;nbsp; claimName: &lt;font color=&quot;#ff0000&quot;&gt;claim1&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ueBFUlql__zcKDbDiL_w-53" value="name: &lt;font color=&quot;#97d077&quot;&gt;vol1&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;mountPath: /var/www/stg&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ueBFUlql__zcKDbDiL_w-57" value="metadata.name = claim1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=10;fontColor=#FF5005;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
