@@ -1,43 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T13:49:27.885Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="o0nQ15uamVvKORWM68AB" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T13:57:43.722Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="JgYQ0YVKxXrxFz1GJuFp" version="14.5.1" type="github">
   <diagram id="FJfJq4zsF0dTZfxqSrNf" name="Page-1">
-    <mxGraphModel dx="1298" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CnAImCiRgEsL5BFaU6FF-1" value="cmap/secret" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=cm;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="1">
+        <mxCell id="CnAImCiRgEsL5BFaU6FF-1" value="my-cmap&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=cm;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="1">
           <mxGeometry x="50" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CnAImCiRgEsL5BFaU6FF-19" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="370" y="70" width="340" height="350" as="geometry" />
+          <mxGeometry x="370" y="70" width="371.1143352601156" height="350" as="geometry" />
         </mxCell>
         <mxCell id="CnAImCiRgEsL5BFaU6FF-18" value="" style="group" vertex="1" connectable="0" parent="CnAImCiRgEsL5BFaU6FF-19">
-          <mxGeometry x="70.00444444444443" y="48.89470588235294" width="295.55555555555554" height="252.20588235294116" as="geometry" />
+          <mxGeometry x="70.00444444444443" y="48.89470588235294" width="301.1098908156711" height="252.20588235294116" as="geometry" />
         </mxCell>
         <mxCell id="CnAImCiRgEsL5BFaU6FF-4" value="pod" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-18">
           <mxGeometry x="-44.445664739884364" y="-61.764705882352935" width="299.7109826589595" height="299.7109826589595" as="geometry" />
         </mxCell>
         <mxCell id="CnAImCiRgEsL5BFaU6FF-26" value="" style="group" vertex="1" connectable="0" parent="CnAImCiRgEsL5BFaU6FF-18">
-          <mxGeometry x="-0.0012202954399427313" y="40.79801038062284" width="288.88888888888886" height="207.0934256055363" as="geometry" />
+          <mxGeometry x="-0.0012202954399427313" y="40.79801038062284" width="301.1111111111111" height="207.0934256055363" as="geometry" />
         </mxCell>
         <mxCell id="CnAImCiRgEsL5BFaU6FF-17" value="pod.spec.container" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
           <mxGeometry width="288.88888888888886" height="207.0934256055363" as="geometry" />
         </mxCell>
-        <mxCell id="CnAImCiRgEsL5BFaU6FF-10" value="envFrom&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; configMapRef&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
-          <mxGeometry x="17.777777777777775" y="43.14446366782007" width="100" height="50" as="geometry" />
+        <mxCell id="CnAImCiRgEsL5BFaU6FF-10" value="envFrom:&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- configMapRef&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name: &lt;b&gt;&lt;font color=&quot;#006600&quot;&gt;my-cmap&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
+          <mxGeometry x="6.667777777777776" y="43.14446366782007" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CnAImCiRgEsL5BFaU6FF-13" value="envFrom&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; secretMapRef&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
-          <mxGeometry x="140" y="43.14446366782007" width="100" height="50" as="geometry" />
+        <mxCell id="CnAImCiRgEsL5BFaU6FF-13" value="envFrom:&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- secretMapRef&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name: &lt;b&gt;&lt;font color=&quot;#006600&quot;&gt;my-cmap&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
+          <mxGeometry x="151.11" y="43.14446366782007" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CnAImCiRgEsL5BFaU6FF-23" value="env:&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; valueFrom:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; secretMapKeyRef:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - key:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
-          <mxGeometry x="151.1111111111111" y="112.17560553633217" width="140" height="80" as="geometry" />
+        <mxCell id="CnAImCiRgEsL5BFaU6FF-23" value="env:&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;-&lt;/span&gt;&lt;span&gt;&amp;nbsp;valueFrom:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; secretMapKeyRef:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - key:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name: &lt;b&gt;&lt;font color=&quot;#006600&quot;&gt;my-cmap&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
+          <mxGeometry x="151.1111111111111" y="112.17560553633217" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CnAImCiRgEsL5BFaU6FF-22" value="env:&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; valueFrom:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; configMapKeyRef:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - key:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
-          <mxGeometry x="6.666666666666666" y="112.17560553633217" width="140" height="80" as="geometry" />
+        <mxCell id="CnAImCiRgEsL5BFaU6FF-22" value="env:&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;- valueFrom:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; configMapKeyRef:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - key:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; name: &lt;font color=&quot;#006600&quot;&gt;&lt;b&gt;my-cmap&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="CnAImCiRgEsL5BFaU6FF-26">
+          <mxGeometry x="6.666666666666666" y="112.17560553633217" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CnAImCiRgEsL5BFaU6FF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="CnAImCiRgEsL5BFaU6FF-1" target="CnAImCiRgEsL5BFaU6FF-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CnAImCiRgEsL5BFaU6FF-21" value="load whole cmap data as env variables" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CnAImCiRgEsL5BFaU6FF-20">
+        <mxCell id="CnAImCiRgEsL5BFaU6FF-21" value="1. load whole cmap data as env variables" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CnAImCiRgEsL5BFaU6FF-20">
           <mxGeometry x="-0.0588" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -45,7 +45,7 @@
         <mxCell id="CnAImCiRgEsL5BFaU6FF-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CnAImCiRgEsL5BFaU6FF-1" target="CnAImCiRgEsL5BFaU6FF-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CnAImCiRgEsL5BFaU6FF-30" value="load just specific keys to env" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CnAImCiRgEsL5BFaU6FF-29">
+        <mxCell id="CnAImCiRgEsL5BFaU6FF-30" value="2. load just specific keys to env" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CnAImCiRgEsL5BFaU6FF-29">
           <mxGeometry x="0.0984" y="12" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
