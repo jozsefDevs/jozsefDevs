@@ -14,7 +14,7 @@
 
 👮 {Es,Style,Commit}lint + Prettier fan.
 
-🌱 I’m currently ~~learning DevOps things, Docker + K8s, setting up CI/CD...~~
+🌱 I’m currently learnging all the backend things! NodeJS, Mongo, NestJs...
 
 💻 Mac user 
 
