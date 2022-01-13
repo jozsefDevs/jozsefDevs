@@ -20,4 +20,6 @@
 
 **Achievements**
 
-27/04/20 - Certified Kubernetes Application Developer. [View my badge here](https://www.credly.com/badges/bea6bd4d-ca34-4c1a-8ad8-66be23891575/public_url)!
+27/04/21 - Certified Kubernetes Application Developer. [View my badge here](https://www.credly.com/badges/bea6bd4d-ca34-4c1a-8ad8-66be23891575/public_url)!
+
+05/10/21 - Node Application Developer, [View my badge here](https://www.credly.com/badges/c4884b27-9be0-49b0-8dba-7da7353f93f3/public_url)!
