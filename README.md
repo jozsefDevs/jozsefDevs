@@ -14,7 +14,7 @@
 
 👮 {Es,Style,Commit}lint + Prettier fan.
 
-🌱 I’m currently learnging all the backend things! NodeJS, Mongo, NestJs...
+🌱 I’m currently learning all the backend things! NodeJS, Mongo, NestJs...
 
 💻 Mac user 
 
