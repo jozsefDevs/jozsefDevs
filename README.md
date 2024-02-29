@@ -4,17 +4,17 @@
 **jozsefDevs/jozsefDevs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-📚 Life-long learner
+📚 Committed to continuous learning and growth.
 
-🧠 I favor proactive behaviour over reactive
+🧠 Proactive problem-solver adept at identifying and addressing challenges.
 
-🔊 I like company cultures with "Speak up!" mentality. Feedback is important.
+🔊 Thrives in collaborative environments fostering open communication and feedback. 
 
-🔭 Working with React + TypeScript most of the time
+🔭 Experienced in frontend development with a strong focus on React and TypeScript.
 
-👮 {Es,Style,Commit}lint + Prettier fan.
+👮 Passionate about maintaining code quality and consistency through tools like ESLint, Stylelint, Commitlint, and Prettier.
 
-🌱 I’m currently learning all the backend things! NodeJS, Mongo, NestJs...
+🌱 Expanding skillset into backend technologies, currently exploring Node.js, MongoDB, and Nest.js.
 
 💻 Mac user 
 
